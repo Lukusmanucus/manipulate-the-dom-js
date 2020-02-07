@@ -10,3 +10,8 @@ There is a notification banner on the site
 3. you will need to create an event listener and a function to do the above work
 
 */
+const notificationContent = document.querySelector(".notification-content");
+notificationContent.innerText = "Hello everybody! How are you doing?";
+
+notificationContent.classList.add("has-background-primary");
+
